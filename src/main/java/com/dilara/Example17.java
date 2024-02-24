@@ -4,9 +4,15 @@ import java.util.Scanner;
 
 public class Example17 {
     public static void main(String[] args) {
-
-    //Bir kullanıcıdan adını alıp, adını tersten yazdıralım
-
+        /**
+         * Kullanıcıdan bir sayı alıp, sayı kadar satırdan oluşan üçgen yazdıralım.
+         * 1'den sayıya kadar satır olsun. Her satırda satırdaki sayının kendisi kadar sayı dönsün.
+         * (Yazdırılan üçgen sola veya sağa yatık olmayacak)
+         * ör: 3 sayısı girilmiş ise;
+         *    1
+         *   2 2
+         *  3 3 3
+         */
         System.out.println("Lütfen bir sayı giriniz.");
         int sayi = new Scanner(System.in).nextInt();
 
