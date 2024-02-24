@@ -14,10 +14,10 @@ public class Example8 {
 
         for (i=2;i<=sayi;i+=2){
             toplam+=i;
-            System.out.println("i===>"+i);
+            System.out.println(sayi+"'dan önceki çift sayı: "+i);
         }
 
-        System.out.println(toplam);
+        System.out.println("Toplamları: "+toplam);
         toplam=0;
 
         for (i=1;i<=sayi;i++){
@@ -25,7 +25,7 @@ public class Example8 {
             toplam+=ciftSayi;
         }
 
-        System.out.println(toplam);
+        System.out.println("Toplamları: "+toplam);
 
         }
     }

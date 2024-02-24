@@ -5,25 +5,26 @@ import java.util.Scanner;
 public class Example16 {
     public static void main(String[] args) {
         /**
-         * Aşağıdaki üçgeni oluşturalım
-         *
-         *       1
-         *      2 2
-         *     3 3 3
-         *    4 4 4 4
+         * Dışarıdan bir sayı girilsin. Bu sayı kadar satır sayısı olan
+         * sola yatık bir ters üçgen yazdıralım. Yıldız sayısı; ilk satırda
+         * sayı kadar olup, tek tek azalsın.
+         * örnek: girilen sayı 4 ise;
+         * ****
+         * ***
+         * **
+         * *
          */
 
-        System.out.println("Lütfen bir sayı giriniz.");
-        int sayi = new Scanner(System.in).nextInt();
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Satır sayısını girin: ");
+        int satirSayisi = scanner.nextInt();
 
-        for (int i=1; i <=sayi ; i++) {
-            for (int j =sayi; j>=i ; j--) {
-                System.out.print(" ");
-            }
-            for (int j=1;j<=i;j++){
-                System.out.print(i+" ");
+        for (int i = 1; i <= satirSayisi; i++) {
+            for (int j = satirSayisi; j >= i; j--) {
+                System.out.print("*");
             }
             System.out.println();
         }
+
     }
 }

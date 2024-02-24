@@ -2,7 +2,7 @@ package com.dilara;
 
 public class Example7 {
     public static void main(String[] args) {
-       // a'dan z'ye alfabeyi ekrana yazdıralım (döngü ile)
+       // a'dan z'ye alfabe yazdıralım (döngü ile)
 
         char baslangic = 'a';
         char bitis = 'z';

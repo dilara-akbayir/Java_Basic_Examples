@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Example19 {
     public static void main(String[] args) {
 
-        //Dışarıdan bir kelime ve harf girelim, alınan harfin kelimenin içinde
+        //Dışarıdan bir cümle veya kelime girelim. Daha sonra bir harf girelim, alınan harfin kelimenin içinde
         // kaç defa olduğunu ekrana yazdıralım.
 
         System.out.println("Bir kelime girin.");

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Example15 {
     public static void main(String[] args) {
         /**
-         * Kullanıcıdan alınan bir sayıya göre dik üçgen çizen
+         * Kullanıcıdan alınan bir sayıya göre sola yatık dik üçgen çizen
          * kodu çiziniz.
          * 1
          * 12

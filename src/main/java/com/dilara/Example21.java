@@ -14,7 +14,7 @@ public class Example21 {
         boolean asalmi=true;
 
         if (sayi==2){
-            System.out.println("2 bir asal sayıdır");
+            System.out.println("2 bir asal sayıdır.");
         }else{
             for (int i = 2; i <sayi ; i++) {
                 if (sayi%i==0){
@@ -24,9 +24,9 @@ public class Example21 {
             }
 
             if (asalmi){
-                System.out.println(sayi+" Asal sayıdır");
+                System.out.println(sayi+" bir asal sayıdır.");
             }else{
-                System.out.println(sayi+" Asal sayı değildir");
+                System.out.println(sayi+" bir asal sayı değildir");
             }
         }
     }

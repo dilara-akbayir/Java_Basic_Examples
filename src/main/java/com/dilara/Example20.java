@@ -16,12 +16,12 @@ public class Example20 {
         System.out.println("Lütfen bir sayı giriniz: ");
         int sayi = new Scanner(System.in).nextInt();
 
-        for (int i = 1; i <sayi/2 ; i++) {
+        for (int i = 1; i <=sayi/2 ; i++) {
             if(sayi%i==0){
                 System.out.println(i);
                 toplam+=i;
                 if (toplam==sayi){
-                    System.out.println(+sayi +" mükemmel sayıdır.");
+                    System.out.println(+sayi +" bir mükemmel sayıdır.");
                 }
             }
         }
